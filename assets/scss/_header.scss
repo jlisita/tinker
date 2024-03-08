@@ -3,6 +3,12 @@ header
     padding:10px;
     @include flex-row-center(space-around);
 }
+
+.logo
+{
+    color: white;
+}
+
 nav ul
 {
     @include flex-row-center(space-around);
@@ -16,5 +22,5 @@ nav li
 
 nav a 
 {
-    color: black;
+    color: white;
 }
