@@ -13,3 +13,12 @@
     align-items: center;
     justify-content: $justify;
 }
+
+@mixin blue-button()
+{
+    @include flex-col-center;
+    width:200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: $color-blue;
+}

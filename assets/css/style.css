@@ -6,11 +6,11 @@
 }
 
 .yellow {
-  color: gold;
+  color: #F6C45C;
 }
 
 .blue {
-  color: rgb(0, 183, 255);
+  color: #3dc1cd;
 }
 
 header {
@@ -31,13 +31,11 @@ nav ul {
   align-items: center;
   justify-content: space-around;
 }
-
-nav li {
+nav ul li {
   margin-left: 10px;
   margin-right: 10px;
 }
-
-nav a {
+nav ul li a {
   color: white;
 }
 
@@ -81,6 +79,68 @@ nav a {
 .lien1 a {
   font-size: 15px;
   color: black;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url(../images/about-bg.jpg);
+}
+
+.service {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.service h3 {
+  color: white;
+}
+.service p {
+  text-align: center;
+  color: white;
+}
+
+.service-icon {
+  position: relative;
+  background-color: #F6C45C;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.service-icon img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.white-separator {
+  width: 250px;
+  height: 1px;
+  background-color: white;
+}
+
+.link1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #3dc1cd;
+}
+.link1 a {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

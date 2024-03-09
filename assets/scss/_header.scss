@@ -9,18 +9,19 @@ header
     color: white;
 }
 
-nav ul
+nav 
 {
-    @include flex-row-center(space-around);
-}
-
-nav li
-{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-nav a 
-{
-    color: white;
+    ul 
+    {
+        @include flex-row-center(space-around);
+        li 
+        {
+            margin-left: 10px;
+            margin-right: 10px;
+            a
+            {
+                color: white;
+            }
+        }
+    }
 }
