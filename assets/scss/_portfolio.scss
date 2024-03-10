@@ -1,11 +1,11 @@
 .portfolio
 {
-    @include flex-row-center(center);
+    @include flex-row-center(flex-start);
 }
 
 .menu
 {
-    padding-left:400px;
+    padding-left:200px;
     padding-right: 150px;
     @include flex-col-center(center);
     align-items: flex-start;
@@ -20,7 +20,7 @@
     p
     {
         color: white;
-        size: 250px;
+        width: 250px;
     }
 
     nav
@@ -35,6 +35,10 @@
             li 
             {
                 margin:0;
+                &:first-child a
+                {
+                    color:$color-gold;
+                }
             }
         }
     }
@@ -42,9 +46,9 @@
 .photos
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 1000px;
+    width: 700px;
     padding-left: 50px;
      img 
      {

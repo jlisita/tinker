@@ -1,0 +1,50 @@
+.testimonies
+{
+    background-color: $color-gold;
+    @include flex-col-center(center);
+    padding: 100px 0px 100px 0px;
+}
+
+.quotation
+{
+    width:600px;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(118, 118, 118);
+    text-align: center;
+    font-style: italic;
+    padding:15px 10px 15px 10px;
+}
+
+.author
+{
+    margin-top:20px;
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.role
+{
+    margin-top:5px;
+    color:white;
+}
+
+.selectors
+{
+    margin-top:20px;
+    @include flex-row-center(center);
+    gap:15px;
+}
+
+.bullet
+{
+    width:7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255,1);
+}
+ .bullet:last-child
+ {
+    background-color: rgba(255, 255, 255,0.5);
+ }
